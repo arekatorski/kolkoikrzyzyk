@@ -12,6 +12,8 @@ public class WinY extends JFrame {
         JLabel txt = new JLabel("Wygrał 0");
         add(txt);
         setDefaultCloseOperation(3);
+        txt.setHorizontalAlignment(JLabel.CENTER);
+        txt.setVerticalAlignment(JLabel.CENTER);
 
 
     }
