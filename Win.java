@@ -13,6 +13,8 @@ public class Win extends JFrame {
         JLabel txt = new JLabel("Wygrał X");
         add(txt);
         setDefaultCloseOperation(3);
+        txt.setHorizontalAlignment(JLabel.CENTER);
+        txt.setVerticalAlignment(JLabel.CENTER);
 
 
     }
